@@ -39,3 +39,9 @@ The data used in this study were taken from an open dataset collected at the “
 Mikulan, E., Russo, S., Parmigiani, S., Sarasso, S., Zauli, F. M., Rubino, A., Avanzini, P., Cattani, A., Sorrentino, A., Gibbs, S., Cardinale, F., Sartori, I., Nobili, L., Massimini, M., & Pigorini, A. (2020). Simultaneous human intracerebral stimulation and HD-EEG, ground-truth for source localization methods. Scientific Data, 7(1), Article 1. https://doi.org/10.1038/s41597-020-0467-x
 Parmigiani, S., Mikulan, E., Russo, S., Sarasso, S., Zauli, F. M., Rubino, A., Cattani, A., Fecchio, M., Giampiccolo, D., Lanzone, J., D’Orio, P., Del Vecchio, M., Avanzini, P., Nobili, L., Sartori, I., Massimini, M., & Pigorini, A. (2022). Simultaneous stereo-EEG and high-density scalp EEG recordings to study the effects of intracerebral stimulation parameters. Brain Stimulation, 15(3), 664–675. https://doi.org/10.1016/j.brs.2022.04.007
 
+## Notebooks
+
+|   | Run | View |
+| - | --- | ---- |
+| Replicating Empirical Results | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Davi1990/Momi_et_al_2024/blob/main/Figure_1.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Davi1990/NMA_project/blob/master/cnn.ipynb?flush_cache=true) |
+

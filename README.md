@@ -67,7 +67,7 @@ In addition, it includes the spatial locations of the stimulating contacts in na
 
 |   | Run | View |
 | - | --- | ---- |
-| Model Fitting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Davi1990/Momi_et_al_2024/blob/main/code/Empirical.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Davi1990/Momi_et_al_2024/blob/main/code/Empirical.ipynb?flush_cache=true) |
+| Virtual_dissection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Davi1990/Momi_et_al_2024/blob/main/code/Empirical.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Davi1990/Momi_et_al_2024/blob/main/code/Virtual_dissection.ipynb?flush_cache=true) |
 
 ## References
 - Jansen BHRit VG (1995) Electroencephalogram and visual evoked potential generation in a mathematical model of coupled cortical columns Biological Cybernetics 73:357–366. https://doi.org/10.1007/BF00199471

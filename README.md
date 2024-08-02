@@ -59,7 +59,6 @@ In addition, it includes the spatial locations of the stimulating contacts in na
 
 
 ## Notebooks
-## Notebooks
 This repository contains Jupyter notebooks that replicate the code and results presented in our paper. Each notebook serves a specific purpose as described below:
 
 | Notebook | Run | View | Description |
@@ -69,6 +68,7 @@ This repository contains Jupyter notebooks that replicate the code and results p
 | Replicating Empirical Results | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Davi1990/Momi_et_al_2024/blob/main/code/Empirical.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Davi1990/Momi_et_al_2024/blob/main/code/Empirical.ipynb?flush_cache=true) | This notebook replicates the empirical results for sEEG and hd-EEG. |
 | Model_fitting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Davi1990/Momi_et_al_2024/blob/main/code/Model_fitting.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Davi1990/Momi_et_al_2024/blob/main/code/Model_fitting.ipynb?flush_cache=true) | This notebook shows how to estimate model parameters and run the model using the fitted parameters. |
 | Replicating Virtual dissection Results | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Davi1990/Momi_et_al_2024/blob/main/code/Virtual_dissection.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Davi1990/Momi_et_al_2024/blob/main/code/Virtual_dissection.ipynb?flush_cache=true) | This notebook replicates the modeling results using the virtual dissections approach. |
+| Replicating Applying virtual dissection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Davi1990/Momi_et_al_2024/blob/main/code/Applying_virtual_dissection.ipynb) | [![View the notebook](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Davi1990/Momi_et_al_2024/blob/main/code/Applying_virtual_dissection.ipynb?flush_cache=true) | This notebook shows how the virtual dissection was applied. |
 
 
 ## References

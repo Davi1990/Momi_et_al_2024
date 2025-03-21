@@ -3,8 +3,8 @@
 This repository includes the code required to reproduce the results in: "Stimulation mapping and whole-brain modeling reveal gradients of excitability and recurrence in cortical networks"
 
 ### Authors:
-- Davide Momi<sub>1,2</sub>
-- Zheng Wang<sub>1</sub>
+- Davide Momi<sub>1,2,13</sub>
+- Zheng Wang<sub>1,13</sub>
 - Sara Parmigiani<sub>2,3,4</sub>
 - Ezequiel Mikulan<sub>5</sub>
 - Sorenza P. Bastiaens<sub>1,6</sub>
@@ -12,29 +12,30 @@ This repository includes the code required to reproduce the results in: "Stimula
 - Kevin Kadak<sub>1,6</sub>
 - Gianluca Gaglioti<sub>8</sub>
 - Allison C. Waters<sub>9</sub>
-- Sean Hill<sub>1,10,11</sub>
-- Andrea Pigorini<sub>12</sub>
-- Corey J. Keller<sub>2,3,4</sub>
-- John D. Griffiths<sub>1,10,11,13</sub>
+- Sean Hill<sub>1,6,10</sub>
+- Andrea Pigorini<sub>11,12</sub>
+- Corey J. Keller<sub>2,3,4,14</sub>
+- John D. Griffiths<sub>1,6,7,10,14</sub>
 
 ### Affiliations:
-<sub>1</sub> Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health (CAMH), Toronto  
-<sub>2</sub> Department of Psychiatry and Behavioral Sciences, Stanford University Medical Center, Stanford, California  
-<sub>3</sub> Veterans Affairs Palo Alto Healthcare System, and the Sierra Pacific Mental Illness, Research, Education, and Clinical Center, Palo Alto, California  
-<sub>4</sub> Wu Tsai Neuroscience Institute, Stanford, California  
-<sub>5</sub> Department of Health sciences, Università degli studi di Milano  
-<sub>6</sub> Institute of Medical Science, University of Toronto  
-<sub>7</sub> Institute of Biomedical Engineering, University of Toronto  
-<sub>8</sub> Dipartimento di Scienze Biomediche e Cliniche "L.Sacco", Università degli Studi di Milano, Milano, Italy  
+<sub>1</sub> Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health (CAMH), Toronto, Canada  
+<sub>2</sub> Department of Psychiatry and Behavioral Sciences, Stanford University Medical Center, Stanford, CA, USA  
+<sub>3</sub> Veterans Affairs Palo Alto Healthcare System, Palo Alto, CA, USA  
+<sub>4</sub> Wu Tsai Neurosciences Institute, Stanford University, Stanford, CA, USA  
+<sub>5</sub> Department of Health Sciences, Università degli studi di Milano, Milan, Italy  
+<sub>6</sub> Institute of Medical Science, University of Toronto, Toronto, Canada  
+<sub>7</sub> Institute of Biomedical Engineering, University of Toronto, Toronto, Canada  
+<sub>8</sub> Department of Biomedical and Clinical Sciences "L.Sacco", Università degli Studi di Milano, Milan, Italy  
 <sub>9</sub> Nash Family Center for Advanced Circuit Therapeutics, Icahn School of Medicine at Mount Sinai, New York, NY, USA  
-<sub>10</sub> Department of Psychiatry, University of Toronto  
-<sub>11</sub> Institute of Medical Sciences, University of Toronto  
-<sub>12</sub> Dipartimento di Scienze Biomediche e Cliniche "L.Sacco", Università degli Studi di Milano, Milano, Italy Department of biomedical, surgical and dental sciences, Università degli Studi di Milano  
-<sub>13</sub> Institute of Biomedical Engineering, University of Toronto
+<sub>10</sub> Department of Psychiatry, University of Toronto, Toronto, Canada  
+<sub>11</sub> Department of Biomedical, Surgical and Dental Sciences, Università degli Studi di Milano, Milan, Italy  
+<sub>12</sub> UOC Maxillo-facial Surgery and dentistry, Fondazione IRCCS Cà Granda, Ospedale Maggiore Policlinico, Milan, Italy  
+<sub>13</sub> These authors contributed equally: Davide Momi, Zheng Wang  
+<sub>14</sub> These authors jointly supervised this work: Corey J. Keller, John D. Griffiths
 
 
 #### Please read our paper, and if you use this code, please cite our paper:
-wait for it
+Nature Communications (2025) - DOI: https://doi.org/10.1038/s41467-025-58187-6
 
 ## Studying RSN input processing strategies and the role of recurrent feedback with computational brain network models.
 Shown here is a schematic overview of the hypotheses, methodology, and general conceptual framework of the present work. (A) Intracerebral electrical stimulation (iES) applied to an intracortical target region generates an early (~20-30ms) response (evoked potential waveform component) at high-density scalp electroencephalography (hd-EEG) channels sensitive to that region and its immediate neighbors (red arrows). This also appears in more distal connected regions after a short delay due to axonal conduction and polysynaptic transmission. Subsequent second (~60-80ms) and third (~140-200ms) late evoked components are frequently observed (blue arrows). After identifying the stimulated network in this way, we aim to determine the extent to which this second component relies on intrinsic network activity versus recurrent whole-brain feedback. (B) Schematic of the hierarchical spatial layout of canonical resting-state networks (RSNs) as demonstrated in (Margulies et al., 2016), spanning unimodal regions showing greater functional segregation to high-order transmodal regions showing greater functional integration (Mesulam, 1998). (C) Schematic of virtual dissection methodology and key hypotheses tested. We first fit personalized connectome-based computational models of iES-evoked responses to the hd-EEG time series, for each patient and stimulation location. Then, precisely timed communication interruptions (virtual dissections) were introduced to the fitted models, and the resulting changes in the iES-evoked propagation pattern were evaluated. We hypothesized that lesioning would lead to activity suppression (REF; panel C, right side) in high-order but not low-order networks (ref).
